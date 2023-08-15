@@ -1,3 +1,3 @@
-import Frontend.Abs
-import Frontend.Logic
-import Frontend.Rename
+import Frontend.RegisterOption
+import Frontend.Import1
+import Frontend.Import2
