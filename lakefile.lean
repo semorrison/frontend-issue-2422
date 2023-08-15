@@ -1,16 +1,12 @@
 import Lake
 open Lake DSL
 
-package «frontend» {
-  -- add package configuration options here
-}
+package frontend
 
 @[default_target]
-lean_lib «Frontend» {
-  -- add library configuration options here
-}
+lean_lib Frontend
 
-@[default_target]
-lean_exe «frontend» {
+lean_exe frontend {
   root := `Main
+  supportInterpreter := true
 }
